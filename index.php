@@ -35,9 +35,9 @@
  * 5. Créez une instance de Appartement et invoquez toutes les méthodes définies, y compris les setters ( dans index.php ).
  */
 
-require './class/Habitation.php';
-require './class/Appartement.php';
-require './class/Maison.php';
+require './classes/Habitation.php';
+require './classes/Appartement.php';
+require './classes/Maison.php';
 
 $maison1 = new Maison("France", "Anor", 59186, 4, 8, true, 1, true);
 echo $maison1->getChambres();
