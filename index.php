@@ -49,6 +49,8 @@ echo $maison1->hasGarage();
 echo $maison1->hasEtages();
 echo $maison1->hasJardin();
 
+echo "<br>";
+
 $maison2 = new Maison("France", "Wignehies", 59212, 1, 4, false, 0, true);
 echo $maison2->getChambres();
 echo $maison2->getCodePostal();
@@ -58,6 +60,8 @@ echo $maison2->getVille();
 echo $maison2->hasGarage();
 echo $maison2->hasEtages();
 echo $maison2->hasJardin();
+
+echo "<br>";
 
 $appart = new Appartement("France", "Maubeuge", 59600, 1, 4, false);
 echo $appart->hasGarage();
